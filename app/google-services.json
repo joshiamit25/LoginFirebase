@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "9190759877",
+    "firebase_url": "https://loginproject-bc918.firebaseio.com",
+    "project_id": "loginproject-bc918",
+    "storage_bucket": "loginproject-bc918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9190759877:android:6eac9069ac2caaba",
+        "android_client_info": {
+          "package_name": "in.naveen.loginfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9190759877-7jj84g2h2nkg4o2ghkhqh1dj2nbj4qgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyu6IFhDHVo83rxuMvuS5aSlYIrMeI_7w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
