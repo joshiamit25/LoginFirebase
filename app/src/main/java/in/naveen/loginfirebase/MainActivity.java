@@ -59,8 +59,8 @@ Button registeruser,skip;
                 String email = inputEmail.getText().toString();
                 final String password = inputPassword.getText().toString();
 
-                if (TextUtils.isEmpty(email)) {
-                    Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
+                if (TextUtils.isEmpty(email) && !isValidEmail(email)) {
+                    Toast.makeText(getApplicationContext(), "Enter a valid email address!", Toast.LENGTH_SHORT).show();
                     pd.cancel();
                     return;
                 }
@@ -119,8 +119,14 @@ Button registeruser,skip;
                 startActivity(intent);            }
         });
 
-
+	
 
 
     }
+	
+	public final static boolean isValidEmail(CharSequence target)
+	{
+		return !TextUtils.isEmpty(target) && android.util.Patterns.EMAIL_ADDRESS.matcher(target).matches();
+	}
+	
 }
